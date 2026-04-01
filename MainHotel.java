@@ -98,11 +98,11 @@ public class MainHotel {
 
         HotelFacade hotel = new HotelFacade();
 
-        hotel.bookRoomWithServices("Айша");
+        hotel.bookRoomWithServices("Ерасыл");
         hotel.organizeEvent("Конференция IT", "Компания ABC");
-        hotel.reserveTableWithTaxi("Айша");
+        hotel.reserveTableWithTaxi("Ерасыл");
 
         hotel.requestCleaning("101");
-        hotel.cancelRoom("Айша");
+        hotel.cancelRoom("Ерасыл");
     }
 }
