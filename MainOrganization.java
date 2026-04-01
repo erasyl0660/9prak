@@ -144,7 +144,7 @@ public class MainOrganization {
         Department it = new Department("IT");
         Department hr = new Department("HR");
 
-        Employee e1 = new Employee("Айша", "Developer", 3000);
+        Employee e1 = new Employee("Ерасыл", "Developer", 3000);
         Employee e2 = new Employee("Иван", "Tester", 2000);
         Contractor c1 = new Contractor("John", "Freelancer", 1500);
 
@@ -166,7 +166,7 @@ public class MainOrganization {
         System.out.println("Сотрудников: " + company.getEmployeeCount());
 
         System.out.println("\nПоиск сотрудника:");
-        Employee found = it.findEmployee("Айша");
+        Employee found = it.findEmployee("Ерасыл");
         if (found != null) {
             found.display(0);
         }
