@@ -15,9 +15,9 @@ abstract class OrganizationComponent {
         throw new UnsupportedOperationException();
     }
 
-    public abstract void display(int level);
-    public abstract double getBudget();
-    public abstract int getEmployeeCount();
+    public abstract void display(int level); // шығару
+    public abstract double getBudget(); // бюджет
+    public abstract int getEmployeeCount(); // адам саны
 }
 
 class Employee extends OrganizationComponent {
